@@ -7,4 +7,7 @@ dist/
 _site/
 *.log
 *.iml
-
+bin/
+.settings/
+.classpath
+.project
