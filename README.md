@@ -1,7 +1,7 @@
 # Todo List
-> 해당 과제는 웹상에서 할 일을 관리(추가, 삭제, 완료처리)하는 ToDoList 서비스를 구현하는 것이다. 이 과제에서 사용하는 Todo List는 [TodoMVC App Template](https://github.com/tastejs/todomvc-app-template)을 기반으로 설명되어 있다.
+NAVER BOOSTCAMP 지원 과제였습니다.
 
-## TASK
+## 기능
 1. **할 일 등록하기**
 	- 할 일을 등록하는 input box가 있다.
 	- 커서를 두고 입력한 후 enter키를 누른다.
@@ -17,7 +17,7 @@
 	- css의 `completed` 클래스를 활용한다.
 	- 새로 고침을 해도 같아야 한다.
 5. **할 일 삭제하기**
-	- 리스트에서 텍스트에 마우스 오버하면 삭제하기(X) 버튼이 보인다. 
+	- 리스트에서 텍스트에 마우스 오버하면 삭제하기(X) 버튼이 보인다.
 	- 이 버튼을 클릭하면 해당 글은 삭제되어 리스트에서 페이지 갱신없이 보이지 않는다.
 	- 새로 고침을 해도 같아야 한다.
 6. **할 일 전체 갯수 표시**
@@ -33,14 +33,6 @@
 8. **완료한 일 삭제**
 	- 클릭 시 이미 완료한 일을 리스트에서 삭제한다.
 	- 새로 고침을 해도 같아야 한다.
-
-## 과제 제출
-- 지원서 항목 중 4.직무질문 중 Git을 쓰는 항목에는 본인의 GitID만 적고 지원서는 제출하면 된다. 그 후 다음과 같이 git작업을 한다.
-- 해당 저장소를 fork하고,  
-- 과제를 수행한 후 Pull Request로 제출한다.  pull reuqest 제목은  "(지원자명) todolist 과제"로 한다. 
-- 반복된 Pull Request를 보내는건 상관 없으며, **`2017년 6월 6일 24시`**  까지 보낸 PR을 기준으로 코드를 평가한다.
-- 위 fork 및 Pull Request는 [하단 github 강의](https://github.com/connect-boostcamp/todolist#github)을 참고한다. 
-
 
 ## 조건
 ### FE
@@ -78,22 +70,3 @@
 - Spring JDBC의 `SimpleJdbcInsert`, `NamedParameterJdbcTemplate`을 이용해서 구현한다.
 - CRUD 동작을 실행하는 역할에만 충실하도록 구현한다.
 - SQL구문은 `TodoSqls` 클래스에 상수로 선언한다.
-
-## 참고
-과제를 수행하는데 필요한 지식은 [사전 교육](http://www.edwith.org/boostcamp_web)을 통해 학습할 수 있다.
-
-### 개발환경
-- 서버 실행
-	- 저장소를 clone 후 server 디렉토리를 IDE에서 import한다. TodoApplication의 main메서드를 실행한다.
-		- Eclipse로 import하는 방법은 [사전 교육](http://www.edwith.org/boostcamp_web)의 `실습S01: Spring Boot 프로젝트 만들기`중 `5. IDE로 import` 절을 참조한다.
-	- IDE에 의존하지 않고 서버를 실행하려면 server 디렉토리에서 `./mvnw spring-boot:run`을 입력한다.
-- FE 개발
-	- Eclipse 외의 편집기를 써도 무방한다.
-	- Eclipse로 FE 코드를 import하려면 [사전 교육](http://www.edwith.org/boostcamp_web)의 '실습S02: 정적 파일 디렉토리 설정' 중 `2. index.html 추가` 부분을 참조한다.
-
-
-### github
-- [fork하여 PR을 보내는 방법](https://www.youtube.com/watch?v=ZSZoaG0PqLg)
-- [PR보내고 다시 PR보낼때 확인](https://www.youtube.com/watch?v=CbLNbCUsh5c)
-- [confilct날 때 해결하는 방법](https://www.youtube.com/watch?v=U3RmwYc5eGQ)
-
